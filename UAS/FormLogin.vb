@@ -87,5 +87,6 @@ Public Class FormLogin
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         MsgBox("azriel")
+        MsgBox("kocak")
     End Sub
 End Class
