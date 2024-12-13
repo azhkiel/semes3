@@ -29,17 +29,17 @@ Partial Class FormLogin
         Me.linkToSignUp = New System.Windows.Forms.LinkLabel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.txtPassword = New System.Windows.Forms.TextBox()
-        Me.mataLiat = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.mataLiat = New System.Windows.Forms.PictureBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.mataLiat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -109,6 +109,16 @@ Partial Class FormLogin
         Me.Panel1.Size = New System.Drawing.Size(342, 65)
         Me.Panel1.TabIndex = 9
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.UAS.My.Resources.Resources.user
+        Me.PictureBox1.Location = New System.Drawing.Point(14, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(40, 44)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.mataLiat)
@@ -118,13 +128,6 @@ Partial Class FormLogin
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(342, 65)
         Me.Panel2.TabIndex = 10
-        '
-        'txtPassword
-        '
-        Me.txtPassword.Location = New System.Drawing.Point(62, 20)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(263, 22)
-        Me.txtPassword.TabIndex = 8
         '
         'mataLiat
         '
@@ -139,6 +142,13 @@ Partial Class FormLogin
         Me.mataLiat.TabIndex = 11
         Me.mataLiat.TabStop = False
         '
+        'txtPassword
+        '
+        Me.txtPassword.Location = New System.Drawing.Point(62, 20)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(263, 22)
+        Me.txtPassword.TabIndex = 8
+        '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.UAS.My.Resources.Resources.padlock
@@ -148,16 +158,6 @@ Partial Class FormLogin
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 7
         Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.UAS.My.Resources.Resources.user
-        Me.PictureBox1.Location = New System.Drawing.Point(14, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(40, 44)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
         '
         'PictureBox3
         '
@@ -187,11 +187,11 @@ Partial Class FormLogin
         Me.Text = "Login"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.mataLiat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

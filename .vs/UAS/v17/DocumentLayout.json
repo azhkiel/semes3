@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\azhkiel\\source\\repos\\UAS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formsignup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formsignup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formsignup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formsignup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,73 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormLogin.vb",
-              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb",
-              "RelativeDocumentMoniker": "UAS\\FormLogin.vb",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb",
-              "RelativeToolTip": "UAS\\FormLogin.vb",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowDoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-11T14:33:31.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormLogin.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb",
-              "RelativeDocumentMoniker": "UAS\\FormLogin.vb",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb [Design]",
-              "RelativeToolTip": "UAS\\FormLogin.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-11T08:28:41.829Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormSignUp.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormSignUp.vb",
-              "RelativeDocumentMoniker": "UAS\\FormSignUp.vb",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormSignUp.vb [Design]",
-              "RelativeToolTip": "UAS\\FormSignUp.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-11T12:19:16.743Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormSignUp.vb",
-              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormSignUp.vb",
-              "RelativeDocumentMoniker": "UAS\\FormSignUp.vb",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormSignUp.vb",
-              "RelativeToolTip": "UAS\\FormSignUp.vb",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAEwG8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-11T12:33:06.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Report1.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\Report1.rdlc",
-              "RelativeDocumentMoniker": "UAS\\Report1.rdlc",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\Report1.rdlc [Design]",
-              "RelativeToolTip": "UAS\\Report1.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-12-11T08:36:07.317Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
