@@ -83,7 +83,7 @@ Public Class FormLogin
         End If
     End Sub
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        MsgBox("Terima Kasih Sudah Berbelanja!")
         Application.Exit()
-        MsgBox("el")
     End Sub
 End Class

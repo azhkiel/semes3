@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\azhkiel\\source\\repos\\UAS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formlogin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\formowner.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formowner.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|C:\\Users\\azhkiel\\source\\repos\\UAS\\uas\\formowner.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\formowner.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
       "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\forminvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\forminvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\forminvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
       "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|c:\\users\\azhkiel\\source\\repos\\uas\\uas\\forminvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CC0E2370-0F79-46C5-97B1-B525FC28F4DD}|UAS\\UAS.vbproj|solutionrelative:uas\\forminvoice.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,18 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DataSet1.xsd",
-              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\DataSet1.xsd",
-              "RelativeDocumentMoniker": "UAS\\DataSet1.xsd",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\DataSet1.xsd",
-              "RelativeToolTip": "UAS\\DataSet1.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-12-14T14:36:46.054Z",
+              "Title": "FormOwner.vb",
+              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormOwner.vb",
+              "RelativeDocumentMoniker": "UAS\\FormOwner.vb",
+              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormOwner.vb",
+              "RelativeToolTip": "UAS\\FormOwner.vb",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAAKsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-14T14:53:51.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FormInvoice.vb",
               "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormInvoice.vb",
               "RelativeDocumentMoniker": "UAS\\FormInvoice.vb",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FormInvoice.vb [Design]",
               "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormInvoice.vb",
               "RelativeDocumentMoniker": "UAS\\FormInvoice.vb",
@@ -71,15 +88,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Report1.rdlc [Design]",
               "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\Report1.rdlc",
               "RelativeDocumentMoniker": "UAS\\Report1.rdlc",
-              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\Report1.rdlc [Design]*",
-              "RelativeToolTip": "UAS\\Report1.rdlc [Design]*",
+              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\Report1.rdlc [Design]",
+              "RelativeToolTip": "UAS\\Report1.rdlc [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
               "WhenOpened": "2024-12-14T14:34:32.905Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormOwner.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormOwner.vb",
+              "RelativeDocumentMoniker": "UAS\\FormOwner.vb",
+              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormOwner.vb [Design]",
+              "RelativeToolTip": "UAS\\FormOwner.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-14T11:44:16.89Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.vb",
+              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb",
+              "RelativeDocumentMoniker": "UAS\\FormLogin.vb",
+              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb*",
+              "RelativeToolTip": "UAS\\FormLogin.vb*",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwFUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-14T11:31:22.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb",
+              "RelativeDocumentMoniker": "UAS\\FormLogin.vb",
+              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\FormLogin.vb [Design]*",
+              "RelativeToolTip": "UAS\\FormLogin.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-14T11:31:20.495Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "UAS\\DataSet1.xsd",
+              "ToolTip": "C:\\Users\\azhkiel\\source\\repos\\UAS\\UAS\\DataSet1.xsd",
+              "RelativeToolTip": "UAS\\DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-12-14T14:36:46.054Z",
+              "EditorCaption": ""
             }
           ]
         }

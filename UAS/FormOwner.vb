@@ -253,4 +253,8 @@ Public Class FormOwner
             MessageBox.Show("Silakan pilih produk yang ingin diperbarui stoknya.")
         End If
     End Sub
+
+    Private Sub LabelTotalPendapatan_Click(sender As Object, e As EventArgs) Handles LabelTotalPendapatan.Click
+
+    End Sub
 End Class
