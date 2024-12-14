@@ -84,5 +84,6 @@ Public Class FormLogin
     End Sub
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Application.Exit()
+        MsgBox("el")
     End Sub
 End Class
