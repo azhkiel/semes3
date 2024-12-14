@@ -217,4 +217,40 @@ Public Class FormOwner
         FormData.Show()
         Me.Close()
     End Sub
+
+    Private Sub btnEditStok_Click(sender As Object, e As EventArgs) Handles btnEditStok.Click
+        If ListViewMenu.SelectedItems.Count > 0 Then
+            Dim selectedItem As ListViewItem = ListViewMenu.SelectedItems(0)
+
+            ' Mendapatkan nama produk yang dipilih
+            Dim namaMenu As String = selectedItem.SubItems(0).Text
+            Dim stokInput As String = InputBox("Masukkan stok baru untuk " & namaMenu, "Edit Stok", selectedItem.SubItems(3).Text)
+            Dim stokBaru As Integer
+
+            ' Validasi bahwa stok baru adalah nilai numerik
+            If Integer.TryParse(stokInput, stokBaru) Then
+                Try
+                    ' Update stok di database
+                    Using conn As MySqlConnection = GetKoneksi()
+                        Dim cmd As New MySqlCommand("UPDATE menu SET stok = @stokBaru WHERE nama_Menu = @namaMenu", conn)
+                        cmd.Parameters.AddWithValue("@stokBaru", stokBaru)
+                        cmd.Parameters.AddWithValue("@namaMenu", namaMenu)
+
+                        conn.Open()
+                        cmd.ExecuteNonQuery()
+
+                        MessageBox.Show("Stok berhasil diperbarui.")
+                        LoadMenu() ' Muat ulang ListView untuk menampilkan perubahan
+                        LoadHistoryPembelian()
+                    End Using
+                Catch ex As Exception
+                    MessageBox.Show("Error: " & ex.Message)
+                End Try
+            Else
+                MessageBox.Show("Input stok tidak valid. Harap masukkan angka.")
+            End If
+        Else
+            MessageBox.Show("Silakan pilih produk yang ingin diperbarui stoknya.")
+        End If
+    End Sub
 End Class

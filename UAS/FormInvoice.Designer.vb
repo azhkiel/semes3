@@ -42,7 +42,7 @@ Partial Class FormInvoice
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
-        Me.btnExit.Text = "Button1"
+        Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'lblAntrian
@@ -52,7 +52,7 @@ Partial Class FormInvoice
         Me.lblAntrian.Name = "lblAntrian"
         Me.lblAntrian.Size = New System.Drawing.Size(48, 16)
         Me.lblAntrian.TabIndex = 5
-        Me.lblAntrian.Text = "Label1"
+        Me.lblAntrian.Text = "Antrian"
         '
         'FormInvoice
         '
