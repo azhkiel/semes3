@@ -61,27 +61,36 @@ Partial Class FormData
         'lbl
         '
         Me.lbl.AutoSize = True
+        Me.lbl.BackColor = System.Drawing.Color.Red
+        Me.lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.lbl.Location = New System.Drawing.Point(12, 51)
         Me.lbl.Name = "lbl"
-        Me.lbl.Size = New System.Drawing.Size(97, 16)
+        Me.lbl.Size = New System.Drawing.Size(110, 16)
         Me.lbl.TabIndex = 3
         Me.lbl.Text = "Akun Customer"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Red
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(279, 51)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(92, 16)
+        Me.Label2.Size = New System.Drawing.Size(104, 16)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Top Customer"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Red
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Location = New System.Drawing.Point(534, 56)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 16)
+        Me.Label3.Size = New System.Drawing.Size(88, 16)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Top Produk"
         '
