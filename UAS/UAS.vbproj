@@ -219,6 +219,9 @@
     <EmbeddedResource Include="FormBelanja.resx">
       <DependentUpon>FormBelanja.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormData.resx">
+      <DependentUpon>FormData.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormInvoice.resx">
       <DependentUpon>FormInvoice.vb</DependentUpon>
     </EmbeddedResource>

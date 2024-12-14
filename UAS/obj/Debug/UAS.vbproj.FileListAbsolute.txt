@@ -101,3 +101,4 @@ C:\Users\azhkiel\source\repos\UAS\UAS\bin\Debug\MaterialSkin.dll
 C:\Users\azhkiel\source\repos\UAS\UAS\obj\Debug\UAS.FormOwner.resources
 C:\Users\azhkiel\source\repos\UAS\UAS\obj\Debug\UAS.FormInvoice.resources
 C:\Users\azhkiel\source\repos\UAS\UAS\obj\Debug\UAS.FormNota.resources
+C:\Users\azhkiel\source\repos\UAS\UAS\obj\Debug\UAS.FormData.resources

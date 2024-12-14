@@ -49,6 +49,7 @@ Public Class FormLogin
     End Sub
     Private Sub txtPassword_Enter(sender As Object, e As EventArgs) Handles txtPassword.Enter
         If txtPassword.Text = "Password" Then
+            txtPassword.PasswordChar = "*" ' Sembunyikan password
             txtPassword.Text = ""
             txtPassword.ForeColor = Color.Black
         End If
@@ -60,9 +61,6 @@ Public Class FormLogin
         End If
     End Sub
 
-    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        Application.Exit()
-    End Sub
 
     Private Sub FormLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtUsername.Text = "Username"
@@ -84,7 +82,7 @@ Public Class FormLogin
             mataLiat.Image = My.Resources.mataTertutup ' Ganti gambar menjadi mata tertutup
         End If
     End Sub
-
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Application.Exit()
     End Sub
 End Class
