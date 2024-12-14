@@ -34,37 +34,37 @@ Partial Class FormData
         'ListViewAkunCustomer
         '
         Me.ListViewAkunCustomer.HideSelection = False
-        Me.ListViewAkunCustomer.Location = New System.Drawing.Point(3, 75)
+        Me.ListViewAkunCustomer.Location = New System.Drawing.Point(9, 29)
         Me.ListViewAkunCustomer.Name = "ListViewAkunCustomer"
-        Me.ListViewAkunCustomer.Size = New System.Drawing.Size(258, 363)
+        Me.ListViewAkunCustomer.Size = New System.Drawing.Size(376, 195)
         Me.ListViewAkunCustomer.TabIndex = 0
         Me.ListViewAkunCustomer.UseCompatibleStateImageBehavior = False
         '
         'ListViewTopCustomers
         '
         Me.ListViewTopCustomers.HideSelection = False
-        Me.ListViewTopCustomers.Location = New System.Drawing.Point(272, 75)
+        Me.ListViewTopCustomers.Location = New System.Drawing.Point(9, 246)
         Me.ListViewTopCustomers.Name = "ListViewTopCustomers"
-        Me.ListViewTopCustomers.Size = New System.Drawing.Size(258, 363)
+        Me.ListViewTopCustomers.Size = New System.Drawing.Size(376, 192)
         Me.ListViewTopCustomers.TabIndex = 1
         Me.ListViewTopCustomers.UseCompatibleStateImageBehavior = False
         '
         'ListViewTopProducts
         '
         Me.ListViewTopProducts.HideSelection = False
-        Me.ListViewTopProducts.Location = New System.Drawing.Point(537, 75)
+        Me.ListViewTopProducts.Location = New System.Drawing.Point(412, 29)
         Me.ListViewTopProducts.Name = "ListViewTopProducts"
-        Me.ListViewTopProducts.Size = New System.Drawing.Size(258, 363)
+        Me.ListViewTopProducts.Size = New System.Drawing.Size(295, 409)
         Me.ListViewTopProducts.TabIndex = 2
         Me.ListViewTopProducts.UseCompatibleStateImageBehavior = False
         '
         'lbl
         '
         Me.lbl.AutoSize = True
-        Me.lbl.BackColor = System.Drawing.Color.Red
+        Me.lbl.BackColor = System.Drawing.SystemColors.Control
         Me.lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.lbl.Location = New System.Drawing.Point(12, 51)
+        Me.lbl.ForeColor = System.Drawing.Color.Black
+        Me.lbl.Location = New System.Drawing.Point(12, 10)
         Me.lbl.Name = "lbl"
         Me.lbl.Size = New System.Drawing.Size(110, 16)
         Me.lbl.TabIndex = 3
@@ -73,10 +73,10 @@ Partial Class FormData
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Red
+        Me.Label2.BackColor = System.Drawing.SystemColors.Control
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(279, 51)
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label2.Location = New System.Drawing.Point(12, 227)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(104, 16)
         Me.Label2.TabIndex = 4
@@ -85,10 +85,10 @@ Partial Class FormData
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Red
+        Me.Label3.BackColor = System.Drawing.SystemColors.Control
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(534, 56)
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label3.Location = New System.Drawing.Point(409, 10)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(88, 16)
         Me.Label3.TabIndex = 5
@@ -96,7 +96,7 @@ Partial Class FormData
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(713, 48)
+        Me.btnExit.Location = New System.Drawing.Point(713, 29)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 6

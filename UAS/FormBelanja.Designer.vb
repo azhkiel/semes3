@@ -56,9 +56,10 @@ Partial Class FormBelanja
         'lbl
         '
         Me.lbl.AutoSize = True
+        Me.lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl.Location = New System.Drawing.Point(76, 18)
         Me.lbl.Name = "lbl"
-        Me.lbl.Size = New System.Drawing.Size(133, 16)
+        Me.lbl.Size = New System.Drawing.Size(150, 16)
         Me.lbl.TabIndex = 2
         Me.lbl.Text = "Welcome, Pengguna"
         '
