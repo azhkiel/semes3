@@ -114,9 +114,4 @@ Public Class FormData
         FormAkun.Show()
         Me.Hide()
     End Sub
-
-    ' Fungsi untuk mendapatkan koneksi database
-    Private Function GetKoneksi() As MySqlConnection
-        Return New MySqlConnection("server=localhost;user id=root;password=;database=your_database_name")
-    End Function
 End Class
