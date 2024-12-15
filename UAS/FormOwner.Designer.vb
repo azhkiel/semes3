@@ -141,7 +141,7 @@ Partial Class FormOwner
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.Label6.Location = New System.Drawing.Point(133, 7)
+        Me.Label6.Location = New System.Drawing.Point(15, 7)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(120, 23)
         Me.Label6.TabIndex = 20

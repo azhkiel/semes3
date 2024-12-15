@@ -228,6 +228,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAkun.resx">
       <DependentUpon>FormAkun.vb</DependentUpon>
     </EmbeddedResource>

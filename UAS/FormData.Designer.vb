@@ -52,11 +52,11 @@ Partial Class FormData
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.SystemColors.Control
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Red
         Me.Label2.Location = New System.Drawing.Point(12, 10)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(104, 16)
+        Me.Label2.Size = New System.Drawing.Size(116, 18)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Top Customer"
         '
@@ -64,11 +64,11 @@ Partial Class FormData
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.SystemColors.Control
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Red
         Me.Label3.Location = New System.Drawing.Point(409, 10)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(88, 16)
+        Me.Label3.Size = New System.Drawing.Size(96, 18)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Top Produk"
         '
@@ -83,12 +83,15 @@ Partial Class FormData
         '
         'btnLiatAkun
         '
+        Me.btnLiatAkun.BackColor = System.Drawing.Color.Red
+        Me.btnLiatAkun.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLiatAkun.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnLiatAkun.Location = New System.Drawing.Point(713, 29)
         Me.btnLiatAkun.Name = "btnLiatAkun"
         Me.btnLiatAkun.Size = New System.Drawing.Size(75, 23)
         Me.btnLiatAkun.TabIndex = 7
         Me.btnLiatAkun.Text = "Akun"
-        Me.btnLiatAkun.UseVisualStyleBackColor = True
+        Me.btnLiatAkun.UseVisualStyleBackColor = False
         '
         'FormData
         '

@@ -33,34 +33,37 @@ Partial Class FormAkun
         Me.ListViewAkunCustomer.HideSelection = False
         Me.ListViewAkunCustomer.Location = New System.Drawing.Point(12, 28)
         Me.ListViewAkunCustomer.Name = "ListViewAkunCustomer"
-        Me.ListViewAkunCustomer.Size = New System.Drawing.Size(376, 410)
+        Me.ListViewAkunCustomer.Size = New System.Drawing.Size(456, 410)
         Me.ListViewAkunCustomer.TabIndex = 1
         Me.ListViewAkunCustomer.UseCompatibleStateImageBehavior = False
         '
         'lbl
         '
         Me.lbl.AutoSize = True
-        Me.lbl.BackColor = System.Drawing.SystemColors.Control
-        Me.lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl.ForeColor = System.Drawing.Color.Black
-        Me.lbl.Location = New System.Drawing.Point(15, 9)
+        Me.lbl.BackColor = System.Drawing.Color.Transparent
+        Me.lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl.ForeColor = System.Drawing.Color.Red
+        Me.lbl.Location = New System.Drawing.Point(12, 5)
         Me.lbl.Name = "lbl"
-        Me.lbl.Size = New System.Drawing.Size(109, 16)
+        Me.lbl.Size = New System.Drawing.Size(133, 20)
         Me.lbl.TabIndex = 4
         Me.lbl.Text = "Akun Terdaftar"
         '
         'btnTambahAdmin
         '
-        Me.btnTambahAdmin.Location = New System.Drawing.Point(394, 28)
+        Me.btnTambahAdmin.BackColor = System.Drawing.Color.Red
+        Me.btnTambahAdmin.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTambahAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnTambahAdmin.Location = New System.Drawing.Point(474, 28)
         Me.btnTambahAdmin.Name = "btnTambahAdmin"
         Me.btnTambahAdmin.Size = New System.Drawing.Size(75, 23)
         Me.btnTambahAdmin.TabIndex = 5
         Me.btnTambahAdmin.Text = "Tambah "
-        Me.btnTambahAdmin.UseVisualStyleBackColor = True
+        Me.btnTambahAdmin.UseVisualStyleBackColor = False
         '
         'btnBack
         '
-        Me.btnBack.Location = New System.Drawing.Point(394, 57)
+        Me.btnBack.Location = New System.Drawing.Point(474, 57)
         Me.btnBack.Name = "btnBack"
         Me.btnBack.Size = New System.Drawing.Size(75, 23)
         Me.btnBack.TabIndex = 6
@@ -71,7 +74,7 @@ Partial Class FormAkun
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(498, 450)
+        Me.ClientSize = New System.Drawing.Size(552, 450)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnTambahAdmin)
         Me.Controls.Add(Me.lbl)

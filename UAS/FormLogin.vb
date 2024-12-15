@@ -16,7 +16,9 @@ Public Class FormLogin
                     FormOwner.Show()
                 Case "admin"
                     MsgBox("Login sebagai Admin berhasil!")
-                ' FormAdmin.Show()
+                    Dim formAdmin As New FormAdmin()
+                    formAdmin.CustomerName = nama
+                    formAdmin.Show()
                 Case "customer"
                     MsgBox("Login berhasil! Selamat datang, " & nama & "!")
                     Dim formBelanja As New FormBelanja()

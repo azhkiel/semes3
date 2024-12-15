@@ -21,6 +21,7 @@ Public Class FormOwner
             .Columns.Add("Harga Total", 100) ' Lebar kolom 100 piksel
             .Columns.Add("Waktu", 120) ' Lebar kolom 120 piksel
             .Columns.Add("Stok Tersisa", 70) ' Lebar kolom 70 piksel
+            .Columns.Add("who", 70) ' Lebar kolom 70 piksel
             .View = View.Details ' Mengatur tampilan menjadi detail
         End With
         LoadTotalPendapatan()
@@ -179,11 +180,11 @@ Public Class FormOwner
         Try
             Using conn As MySqlConnection = GetKoneksi()
                 ' Kueri untuk menampilkan history pembelian dengan stok tersisa
-                Dim cmd As New MySqlCommand("SELECT c.username, pr.nama_Menu, pd.jumlah, pd.harga_total, pd.waktu, pr.stok " &
-                                        "FROM `order` pd " &
-                                        "JOIN `user`  c ON pd.username = c.username " &
-                                        "JOIN Menu pr ON pd.nama_Menu = pr.nama_Menu " &
-                                        "ORDER BY pd.waktu DESC", conn)
+                Dim cmd As New MySqlCommand("SELECT c.username, pr.nama_Menu, pd.jumlah, pd.harga_total, pd.waktu, pr.stok, pd.who " &
+                      "FROM `order` pd " &
+                      "JOIN `user` c ON pd.username = c.username " &
+                      "JOIN Menu pr ON pd.nama_Menu = pr.nama_Menu " &
+                      "ORDER BY pd.waktu DESC", conn)
 
                 conn.Open()
 
@@ -197,6 +198,7 @@ Public Class FormOwner
                     item.SubItems.Add(reader("harga_total").ToString())
                     item.SubItems.Add(Convert.ToDateTime(reader("waktu")).ToString("yyyy-MM-dd HH:mm:ss"))
                     item.SubItems.Add(reader("stok").ToString()) ' Tambahkan stok ke tampilan
+                    item.SubItems.Add(reader("who").ToString())
 
                     ListViewHistoryPembelian.Items.Add(item)
                 End While
