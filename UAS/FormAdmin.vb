@@ -4,15 +4,10 @@ Imports MySql.Data.MySqlClient
 Public Class FormAdmin
     ' Menyimpan nama customer setelah login
     Public Property CustomerName As String
-    'Dim cus As String
     Dim nomorAntrian As String = GenerateQueueId()
 
     ' Event handler yang dijalankan ketika FormBelanja dimuat
     Private Sub FormBelanja_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Menyimpan nama customer setelah form dimuat 
-        'cus = tbUser.Text
-        ' Menampilkan nama customer pada label ketika form dimuat
-        lbl.Text = $"Hi! {CustomerName}, mau pesan apa hari ini?"
         AntrianBaru()
 
         ' Konfigurasi ListView untuk menampilkan menu belanja
@@ -326,6 +321,11 @@ Public Class FormAdmin
 
     Private Sub Button1_Click(sender As Object, e As EventArgs)
         FormInvoice.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        FormAM.Show()
         Me.Close()
     End Sub
 End Class

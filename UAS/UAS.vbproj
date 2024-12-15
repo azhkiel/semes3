@@ -166,6 +166,12 @@
     <Compile Include="FormAkun.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormAM.Designer.vb">
+      <DependentUpon>FormAM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAM.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormBelanja.Designer.vb">
       <DependentUpon>FormBelanja.vb</DependentUpon>
     </Compile>
@@ -233,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAkun.resx">
       <DependentUpon>FormAkun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAM.resx">
+      <DependentUpon>FormAM.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBelanja.resx">
       <DependentUpon>FormBelanja.vb</DependentUpon>

@@ -22,25 +22,16 @@ Partial Class FormAdmin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btnLogout = New System.Windows.Forms.Button()
         Me.lblAntrian = New System.Windows.Forms.Label()
         Me.btnBayarPesanan = New System.Windows.Forms.Button()
-        Me.lbl = New System.Windows.Forms.Label()
         Me.ListViewPesanan = New System.Windows.Forms.ListView()
         Me.ListViewBelanja = New System.Windows.Forms.ListView()
         Me.tbUser = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.UAS.My.Resources.Resources.mie__1_
-        Me.PictureBox1.Location = New System.Drawing.Point(18, 1)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(47, 47)
-        Me.PictureBox1.TabIndex = 13
-        Me.PictureBox1.TabStop = False
         '
         'btnLogout
         '
@@ -64,24 +55,15 @@ Partial Class FormAdmin
         'btnBayarPesanan
         '
         Me.btnBayarPesanan.BackColor = System.Drawing.Color.Red
+        Me.btnBayarPesanan.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBayarPesanan.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnBayarPesanan.Location = New System.Drawing.Point(602, 589)
+        Me.btnBayarPesanan.Location = New System.Drawing.Point(500, 588)
         Me.btnBayarPesanan.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnBayarPesanan.Name = "btnBayarPesanan"
         Me.btnBayarPesanan.Size = New System.Drawing.Size(94, 39)
         Me.btnBayarPesanan.TabIndex = 10
         Me.btnBayarPesanan.Text = "bayar"
         Me.btnBayarPesanan.UseVisualStyleBackColor = False
-        '
-        'lbl
-        '
-        Me.lbl.AutoSize = True
-        Me.lbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl.Location = New System.Drawing.Point(71, 17)
-        Me.lbl.Name = "lbl"
-        Me.lbl.Size = New System.Drawing.Size(150, 16)
-        Me.lbl.TabIndex = 9
-        Me.lbl.Text = "Welcome, Pengguna"
         '
         'ListViewPesanan
         '
@@ -106,22 +88,44 @@ Partial Class FormAdmin
         '
         'tbUser
         '
-        Me.tbUser.Location = New System.Drawing.Point(227, 14)
+        Me.tbUser.Location = New System.Drawing.Point(71, 17)
         Me.tbUser.Name = "tbUser"
-        Me.tbUser.Size = New System.Drawing.Size(100, 22)
+        Me.tbUser.Size = New System.Drawing.Size(243, 22)
         Me.tbUser.TabIndex = 14
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.UAS.My.Resources.Resources.mie__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(18, 1)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(47, 47)
+        Me.PictureBox1.TabIndex = 13
+        Me.PictureBox1.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Red
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(602, 588)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(94, 39)
+        Me.Button1.TabIndex = 15
+        Me.Button1.Text = "Data"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'FormAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(716, 640)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.tbUser)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnLogout)
         Me.Controls.Add(Me.lblAntrian)
         Me.Controls.Add(Me.btnBayarPesanan)
-        Me.Controls.Add(Me.lbl)
         Me.Controls.Add(Me.ListViewPesanan)
         Me.Controls.Add(Me.ListViewBelanja)
         Me.Name = "FormAdmin"
@@ -136,8 +140,8 @@ Partial Class FormAdmin
     Friend WithEvents btnLogout As Button
     Friend WithEvents lblAntrian As Label
     Friend WithEvents btnBayarPesanan As Button
-    Friend WithEvents lbl As Label
     Friend WithEvents ListViewPesanan As ListView
     Friend WithEvents ListViewBelanja As ListView
     Friend WithEvents tbUser As TextBox
+    Friend WithEvents Button1 As Button
 End Class
