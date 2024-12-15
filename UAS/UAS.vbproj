@@ -154,6 +154,18 @@
     <Compile Include="DataSet1.vb">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FormAdmin.Designer.vb">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAkun.Designer.vb">
+      <DependentUpon>FormAkun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAkun.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormBelanja.Designer.vb">
       <DependentUpon>FormBelanja.vb</DependentUpon>
     </Compile>
@@ -216,6 +228,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormAkun.resx">
+      <DependentUpon>FormAkun.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormBelanja.resx">
       <DependentUpon>FormBelanja.vb</DependentUpon>
     </EmbeddedResource>
