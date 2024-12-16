@@ -35,7 +35,7 @@ Public Class FormData
     Private Sub LoadTopCustomers()
         Try
             Using conn As MySqlConnection = GetKoneksi()
-                Dim query As String = """
+                Dim query As String = "
                 SELECT 
                     u.username, 
                     SUM(o.harga_total) AS total_pembelian 
@@ -50,7 +50,7 @@ Public Class FormData
                 GROUP BY 
                     u.username 
                 ORDER BY 
-                    total_pembelian DESC;"""
+                    total_pembelian DESC;"
                 Dim cmd As New MySqlCommand(query, conn)
                 conn.Open()
                 Dim reader As MySqlDataReader = cmd.ExecuteReader()
@@ -74,7 +74,7 @@ Public Class FormData
     Private Sub LoadTopProducts()
         Try
             Using conn As MySqlConnection = GetKoneksi()
-                Dim query As String = """
+                Dim query As String = "
                 SELECT 
                     nama_Menu, 
                     SUM(jumlah) AS total_terjual 
@@ -83,7 +83,7 @@ Public Class FormData
                 GROUP BY 
                     nama_Menu 
                 ORDER BY 
-                    total_terjual DESC;"""
+                    total_terjual DESC;"
                 Dim cmd As New MySqlCommand(query, conn)
                 conn.Open()
                 Dim reader As MySqlDataReader = cmd.ExecuteReader()
