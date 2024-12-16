@@ -162,6 +162,7 @@ Public Class FormAkun
             End Try
         Else
             MessageBox.Show("Silakan pilih akun yang ingin diedit.")
+            'akdalk
         End If
     End Sub
 End Class
